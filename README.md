@@ -1,5 +1,5 @@
 # GithubGo api
-```
+```go
 TYPES
 
 type Commit struct {
@@ -71,7 +71,7 @@ func (user User) GetRepos() ([]Repo, error)
 
 ```
 ## Example
-```
+```go
 l3gacy, _ := GetUser("l3gacyb3ta")
 
 repos, _ := l3gacy.GetRepos()
