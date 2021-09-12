@@ -1,9 +1,7 @@
-package main
+package githubgo
 
 import (
 	"encoding/json"
-	"fmt"
-
 	"github.com/go-resty/resty/v2"
 )
 
@@ -119,12 +117,12 @@ func GetUser(uname string) (User, error) {
 
 func main() {
 	/*
-	l3gacy, _ := GetUser("l3gacyb3ta")
+		l3gacy, _ := GetUser("l3gacyb3ta")
 
-	repos, _ := l3gacy.GetRepos()
+		repos, _ := l3gacy.GetRepos()
 
-	commits, _ := repos[3].GetCommits()
+		commits, _ := repos[3].GetCommits()
 
-	fmt.Println(commits[len(commits)-1].Commit)
+		fmt.Println(commits[len(commits)-1].Commit)
 	*/
 }
