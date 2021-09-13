@@ -7,7 +7,7 @@ import (
 	"github.com/go-resty/resty/v2"
 )
 
-// User is a thing for parsing in json
+// User is a struct for parsing in json
 type User struct {
 	Username        string    `json:"login"`
 	ID              int64     `json:"id"`
