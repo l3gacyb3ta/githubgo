@@ -1,4 +1,4 @@
-package main
+package githubgo
 
 import (
 	"encoding/json"
