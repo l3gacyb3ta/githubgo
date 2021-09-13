@@ -79,4 +79,10 @@ repos, _ := l3gacy.GetRepos()
 commits, _ := repos[3].GetCommits()
 
 fmt.Println(commits[len(commits)-1].Commit)
+
+author := repos[3].Owner
+
+repos2, _ := author.GetRepos()
+
+fmt.Println(repos2)
 ```
